@@ -1,0 +1,122 @@
+/* Estilos para o corpo (body) da página */
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Estilos para elementos de lista (li) dentro do corpo */
+body li {
+    font-weight: bold;
+}
+
+/* Estilos para listas não ordenadas (ul) */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilos para links */
+a {
+    color: white;
+    text-decoration: none; /* Remove decoração de link sublinhado */
+}
+
+/* Estilos para links de navegação no hover (quando passa o mouse em cima) */
+nav a:hover {
+    color:black
+}
+
+/* Estilos para imagens */
+img {
+    width: 200px;
+    border-radius: 30%;
+}
+
+/* Estilos para a classe 'imagem' */
+.imagem {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para cabeçalho de nível 1 (h1) */
+h1 {
+    color: white;
+}
+
+/* Estilos para elementos 'span' */
+span {
+    color: blueviolet;
+}
+
+/* Estilos para imagens no rodapé */
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Estilos para links no rodapé */
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Adiciona margem superior para os parágrafos */
+footer p {
+    margin-top: 2px;
+}
+
+p:hover {
+    color:blueviolet;
+
+}
+
+/* Estilos para a classe 'cabecalho' */
+.cabecalho {
+    background-color: blueviolet;
+    padding: 7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Estilos para elementos com a classe 'container' */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+/* Estilos para a classe 'contato' */
+.contato {
+    text-align: center;
+}
+
+/* Estilos para o contêiner do formulário */
+.form-container {
+    max-width: 400px;
+    text-align: left;
+}
+
+/* Estilos para rótulos, campos de entrada, área de texto e botão dentro do contêiner do formulário */
+.form-container label, .form-container input, .form-container textarea, .form-container button {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Estilos para o botão */
+button {
+    background-color: blueviolet;
+    font-weight: bold;
+}
